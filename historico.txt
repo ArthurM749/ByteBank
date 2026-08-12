@@ -1,0 +1,1 @@
+TransacaoDTO[tipo=TED, valor=250.0, dataHora=2026-08-10T16:15:51.209469200]
