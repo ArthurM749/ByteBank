@@ -7,7 +7,7 @@ import com.bytebank.models.Transacao;
 
 public class TransacaoController {
     
-    private List<Transacao> transacoes =new ArrayList<Transacao>();
+    private List<Transacao> transacoes = new ArrayList<>();
 
     public void adicionarTransacao(Transacao transacao){
         transacoes.add(transacao);
@@ -33,8 +33,8 @@ public class TransacaoController {
             transacaoExistente.setTipo(transacao.getTipo());
             transacaoExistente.setValor(transacao.getValor());
             transacaoExistente.setData(transacao.getData());
-        }else{
-            System.out.println("Transacao não encontrada. ");
+        } else {
+            System.out.println("Transacao nao encontrada.");
         }
     }
 
