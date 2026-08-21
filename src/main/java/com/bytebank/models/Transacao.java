@@ -6,7 +6,7 @@ public class Transacao {
     private String tipo;
     private String data;
 
-    public Transacao(int id, double valor, String data, String tipo) {
+    public Transacao(String tipo ,int id, double valor, String data ) {
         this.id = id;
         this.valor = valor;
         this.data = data;
